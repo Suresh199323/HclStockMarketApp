@@ -1,0 +1,36 @@
+User table for wothout purpose
+
+id  username  phone  email
+
+https://financialmodelingprep.com/developer/docs/realtime-stock-quote-api/ 
+
+
+we have to create 3 microservices 
+1) eureka server
+2) stock microservices
+3) quotation Microservice
+
+
+stockname should be logical names check it on web
+
+we have to pass stock id as input from swagger to stock microservice \
+
+based on that id we have to take stock name from db and pass it using resttemplate and get the detail of stock.
+
+in quotation microservice 
+
+
+
+
+we have to give input user id ,  stock id, quantity
+
+we have to call stock microservice using stockid need to get json data and need to fetch price of that stock 
+
+after getting the price of that stock we have to multiply with quantity and multiply with brokerage, that will beocme total cost.
+
+then we have to save it into db 
+uid  sid  unitprice(getting from resttemplate call above)    quantity    total amount.
+
+
+
+
